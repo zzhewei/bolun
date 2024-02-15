@@ -1,0 +1,53 @@
+version: "3.7"
+
+services:
+  inventory:
+    image: zheweii/bolun-inventory
+    container_name: inventory
+    environment:
+      - VERSION=159745
+      - TIME=4092573480000
+      - PATH=/usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+      - JAVA_HOME=/usr/local/openjdk-8
+      - LANG=C.UTF-8
+      - JAVA_VERSION=8u302
+    command: /bin/sh -c "java -javaagent:/sjt_agent.jar -jar /gambler.jar --pv=$${VERSION} --system=$${TIME}"
+    depends_on:
+      - inventory-mysql
+    ports:
+      - 8086:8086
+    networks:
+      - appnetwork
+
+  inventory-mysql:
+    image: mysql
+    container_name: inventory-mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=fW3nW3b33etcn254
+      - MYSQL_DATABASE=prilic
+    volumes:
+      - ./test.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - appnetwork
+    ports:
+      - 3306:3306
+
+  inventory-nginx:
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    container_name: inventory-nginx
+    restart: always
+    ports:
+      - 8887:8887
+    volumes:
+      - ./nginx/log:/var/log/nginx
+    depends_on:
+      - inventory
+    networks:
+      - appnetwork
+
+networks:
+  appnetwork:
+    name: inventory-phone-network
+    external: true

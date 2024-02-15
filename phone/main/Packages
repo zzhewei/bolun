@@ -1,0 +1,112 @@
+Package: com.yourcompany.gametest1
+Version: 0.0.1-1+debug
+Section: [實用插件]
+Maintainer: ddd
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm
+Filename: ./downloads.php?request=22.deb
+Size: 6324
+Installed-Size: 200
+Name: 【遊戲防檢測】奧丁
+Author: ddd
+Depiction: http://n.com/index.php?pid=22
+MD5sum: be32ccf2d5c10d3a21e6ba8dce3fd29c
+
+Package: com.senhe.chuku
+Version: 2.041
+Priority: optional
+Section: 插件
+Depends: firmware (>= 5.0), mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./downloads.php?request=21.deb
+Size: 502162
+Name: 手機還原
+Author: 2205
+Depiction: http://n.com/index.php?pid=21
+Icon: null
+MD5sum: 8a7f7acd71e13aa774299bf46ff1e9c5
+
+Package: com.les01.chukuNew
+Version: 1.0.1
+Priority: optional
+Section: 犁牛
+Depends: firmware (>= 5.0), mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./downloads.php?request=18.deb
+Size: 162718
+Name: lsr的出库
+Author: lsr
+Depiction: http://n.com/index.php?pid=18
+Icon: null
+MD5sum: fa0d37490940dab94c4587b81a9f8c75
+
+Package: com.01wdg.chuku1
+Version: 1.0.2
+Priority: optional
+Section: 犁牛
+Depends: firmware (>= 5.0), mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./downloads.php?request=17.deb
+Size: 521740
+Name: 万国出库
+Author: 万国出库
+Depiction: http://n.com/index.php?pid=17
+Icon: null
+MD5sum: b8ebbe872f3399b74dc46e1a5b13cd79
+
+Package: com.s0414dddd2.chuku3
+Version: 1.0.1
+Priority: optional
+Section: 犁牛
+Depends: firmware (>= 5.0), mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./downloads.php?request=16.deb
+Size: 500332
+Name: 天堂DNF专用
+Author: 天堂DNF专用
+Depiction: http://n.com/index.php?pid=16
+Icon: null
+MD5sum: effa6c26efeef828756f8cb2e925ae9a
+
+Package: com.chu00554a.chuku
+Version: 1.0.1
+Priority: optional
+Section: 犁牛
+Depends: firmware (>= 5.0), mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./downloads.php?request=15.deb
+Size: 490090
+Name: 出库
+Author: 出库
+Depiction: http://n.com/index.php?pid=15
+Icon: null
+MD5sum: 416febc20af8cb1e023b7f17b7be96e9
+
+Package: com.cai0061.caiji
+Version: 1.0.1
+Priority: optional
+Section: 犁牛
+Depends: firmware (>= 5.0), mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./downloads.php?request=14.deb
+Size: 431648
+Name: 采集
+Author: 采集
+Depiction: http://n.com/index.php?pid=14
+Icon: null
+MD5sum: 5836296fbe76e27b1a9e176de5b05bc8
+
+Package: com.ruku800.ruku
+Version: 0.1-1
+Priority: optional
+Section: 犁牛
+Depends: firmware (>= 5.0), mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./downloads.php?request=13.deb
+Size: 141770
+Name: 入库
+Author: 入库
+Depiction: http://n.com/index.php?pid=13
+Icon: null
+MD5sum: f9831afdfb50f92b6b328c26feb2b7c1
+

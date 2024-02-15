@@ -1,0 +1,43 @@
+{
+
+    "class":"FeaturedBannersView",
+    "itemSize":"{263, 148}",
+    "itemCornerRadius":10,              
+    "banners":[
+
+				{
+					"url": "http://0oo0.vip/icon/sileo/1.png",
+					"title": "微信美化增强",
+					"package": "com.0oo0.vip.sutuplus",
+					"repoName": "西瓜源™"
+				},
+				{
+					"url": "http://0oo0.vip/icon/sileo/2.png",
+					"title": "ShortLook 炫酷通知",
+					"package": "com.0oo0.vip.shortlook",
+					"repoName": "西瓜源™"
+				},
+				{
+					"url": "http://0oo0.vip/icon/sileo/3.png",
+					"title": "ShortLook 优雅通知",
+					"package": "com.0oo0.vip.bazzix",
+					"repoName": "西瓜源™"
+				},
+				{
+					"url": "http://0oo0.vip/icon/sileo/4.png",
+					"title": "AlcoveTheme 精美主题",
+					"package": "com.0oo0.vip.pikabulite",
+					"repoName": "西瓜源™"
+				},
+				{
+					"url": "http://0oo0.vip/icon/sileo/5.png",
+					"title": "BetterSettings 优雅设置",
+					"package": "com.0oo0.vip.bettersettings",
+					"repoName": "西瓜源™"
+				}
+    ]
+  
+  
+}
+
+
